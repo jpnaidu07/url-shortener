@@ -8,7 +8,7 @@ Unit tests written with simple JUnit without any other/third party libraries
 
 Simple UML diagram is shown below(Note: Made using draw.io)
 
-![Simple UML](https://github.com/jpnaidu07/deloitte-url-shortener/blob/master/urlshortenerUML.png)
+![Simple UML](https://github.com/jpnaidu07/deloitte-url-shortener/blob/master/urlshortener-UML.png)
 
 
 ## Running the App and tests
