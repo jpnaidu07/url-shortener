@@ -6,8 +6,12 @@ This App demonstrates:
 A simple Java 8 application with tests
 Unit tests written with simple JUnit without any other/third party libraries
 
+Simple UML diagram is shown below(Note: Made using draw.io)
 
-## Running the tests
+![Simple UML](https://github.com/jpnaidu07/deloitte-url-shortener/blob/master/urlshortenerUML.png)
+
+
+## Running the App and tests
 To verify the functionality of URLShortener App please run "mvn test"
 
 The unit test is configured with multiple run time arguments and can be passed with mvn test as shown below
