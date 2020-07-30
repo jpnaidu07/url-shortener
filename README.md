@@ -29,33 +29,62 @@ Sample test results shown below
 
 * mvn test
 -------------------------------------------------------
+
 Running com.interview.us.URLShortnerAppTest
+
+::::::::::Create Short URL for given URL:::::::::::::::::
 
 URL::https://www.google.com/maps/@13.1898846,78.7362839,15z
 
-Shortened URL:: https://deloitte.tiny/Ohjpm
+Shortened URL:: https://deloitte.tiny/wUvoa
+
+::::::::::Fetching the redirect URL for stored short URL::::::::::
+
+Shortened URL::https://deloitte.tiny/wUvoa
+
+Redirect URL:: www.google.com/maps/@13.1898846,78.7362839,15z
 
 -------------------------------------------------------
 
 * mvn test -Durl=www.google.com/maps
 
 -------------------------------------------------------
+
 Running com.interview.us.URLShortnerAppTest
+
+::::::::::Create Short URL for given URL:::::::::::::::::
 
 URL::www.google.com/maps
 
-Shortened URL:: https://deloitte.tiny/8eBQO
+Shortened URL:: https://deloitte.tiny/wNnMa
+
+::::::::::Fetching the redirect URL for stored short URL::::::::::
+
+Shortened URL::https://deloitte.tiny/wNnMa
+
+Redirect URL:: www.google.com/maps
+
 
 -------------------------------------------------------
 
 * mvn test -Durl=www.google.com/maps -DkeyLength=4 
 
 -------------------------------------------------------
+
 Running com.interview.us.URLShortnerAppTest
+
+::::::::::Create Short URL for given URL:::::::::::::::::
 
 URL::www.google.com/maps
 
-Shortened URL:: https://deloitte.tiny/RFP1
+Shortened URL:: https://deloitte.tiny/AwSD
+
+::::::::::Fetching the redirect URL for stored short URL::::::::::
+
+Shortened URL::https://deloitte.tiny/AwSD
+
+Redirect URL:: www.google.com/maps
+
 
 -------------------------------------------------------
 
@@ -65,12 +94,15 @@ Shortened URL:: https://deloitte.tiny/RFP1
 
 Running com.interview.us.URLShortnerAppTest
 
+::::::::::Create Short URL for given URL:::::::::::::::::
+
 URL::www.google.com/maps
 
-Shortened URL:: deloitte.us/AJE7e
+Shortened URL:: deloitte.us/S3D6T
 
+::::::::::Fetching the redirect URL for stored short URL::::::::::
 
+Shortened URL::deloitte.us/S3D6T
 
-
-
+Redirect URL:: www.google.com/maps
 
