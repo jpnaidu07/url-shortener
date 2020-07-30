@@ -1,11 +1,12 @@
 package com.interview.us.utils;
 
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Storage {
 	
-	public static ConcurrentHashMap<String, String> map = new ConcurrentHashMap<String, String>();
+	public static Map<String, String> map = new HashMap<String, String>();
 	
-	public static ConcurrentHashMap<String, String> suMap = new ConcurrentHashMap<String, String>();
+	public static Map<String, String> suMap = new HashMap<String, String>();
 
 }
