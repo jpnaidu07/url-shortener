@@ -84,6 +84,7 @@ public class URLShortnerAppTest extends TestCase {
 		System.out.println();
 		System.out.println("Redirect URL:: " +  URLShortnerApp.redirectShortURL(domain + "/" +entry.getKey()));
 		System.out.println();
+		System.out.println("::::::::::Fetchted::::::::::\n");
 
 	}
 }
