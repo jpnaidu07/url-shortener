@@ -1,7 +1,7 @@
 # URLShortener using Java and Maven
-### A „URLShortener Service” sample written in Java using Maven for the build, that showcases a few very simple tests.
+### A URLShortener App written in Java using Maven for the build, that showcases a few very simple tests.
 
-This service demonstrates:
+This App demonstrates:
 
 A simple Java 8 application with tests
 Unit tests written with simple JUnit without any other/third party libraries
