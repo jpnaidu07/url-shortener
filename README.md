@@ -112,4 +112,4 @@ Redirect URL:: www.google.com/maps
 
 -------------------------------------------------------
 
-Note: JAVA_HOME for maven must be set to JDK insted of JRE
+Note: JAVA_HOME for maven must be set to JDK instead of JRE
