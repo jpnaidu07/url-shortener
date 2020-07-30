@@ -110,3 +110,6 @@ Shortened URL::deloitte.us/S3D6T
 
 Redirect URL:: www.google.com/maps
 
+-------------------------------------------------------
+
+Note: JAVA_HOME for maven must be set to JDK insted of JRE
