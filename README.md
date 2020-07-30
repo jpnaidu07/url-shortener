@@ -25,7 +25,7 @@ The unit test is configured with multiple run time arguments and can be passed w
 #### -Ddomain for short url domain
 
 The default values will be taken as 
-* url - https://www.google.com/maps/@13.1898846,78.7362839,15z (My current location Coordinates :wink:)
+* url - https://www.google.com/maps/@13.1898846,78.7362839,15z (My current location Coordinates :slightly_smiling_face:)
 * keylength - 5
 * domain - https://deloitte.tiny
 
